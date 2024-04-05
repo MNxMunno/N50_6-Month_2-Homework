@@ -1,0 +1,10 @@
+.hero-section {
+  padding: 70px 0;
+  background: #000;
+  .hero__cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+  }
+}

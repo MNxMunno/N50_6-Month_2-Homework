@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1210px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  border: 0;
+  background: transparent;
+}
+
+@import "./components/header.scss";
+@import "./components/main.scss";
+@import "./components/hero.scss";
+@import "./components/category.scss";
+@import "./components/products.scss";
