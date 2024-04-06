@@ -1,0 +1,44 @@
+.products-section {
+  padding: 70px 0;
+  .products__cards {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    flex-wrap: wrap;
+    .products__card {
+      width: 268px;
+      //   border: 1px solid salmon;
+      display: flex;
+      align-items: baseline;
+      justify-content: center;
+      flex-direction: column;
+      gap: 5px;
+      padding: 15px;
+      transition: 0.3s;
+      border-radius: 12px;
+      &:hover {
+        box-shadow: 3px 3px 5px rgba(167, 167, 167, 0.2);
+      }
+      .img {
+        border-radius: 8px;
+        overflow: hidden;
+        img {
+          background: #ddd;
+          width: 240px;
+          height: 150px;
+          object-fit: contain;
+        }
+      }
+      h4 {
+        font-family: sans-serif;
+        font-size: 16px;
+        color: #212159;
+      }
+      p {
+        font-family: sans-serif;
+        font-size: 16px;
+        color: red;
+      }
+    }
+  }
+}
